@@ -1,0 +1,1 @@
+Get-EventLog -LogName System -EntryType "Error" -source "Service Control Manager" -Newest 200
