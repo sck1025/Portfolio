@@ -1,1 +1,3 @@
+#Simple script to bring back last 200 error messages in Windows system log
+
 Get-EventLog -LogName System -EntryType "Error" -source "Service Control Manager" -Newest 200
