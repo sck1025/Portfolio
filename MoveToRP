@@ -1,0 +1,2 @@
+$RP = Get-ResourcePool |Where-Object {$_.ID -like "*2103"}
+Move-VM -VM 'VM Name' -Destination $RP
